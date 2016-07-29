@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "steering", "practicas steering\steering.vcxproj", "{9CC57251-3232-47B5-AE27-84820EF0F6E2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "navmesh", "practica navmesh\navmesh.vcxproj", "{51EBAE8A-EAD3-45AD-B05C-4E467076BFAF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BehaviorTree", "practica BT\game.vcxproj", "{1DDD5576-D66B-4D98-8BF6-55AF0D77AB97}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AStar", "practica Astart\Astar.vcxproj", "{D2002E10-63E5-4A95-80B2-62BEBD4A82E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CC57251-3232-47B5-AE27-84820EF0F6E2}.Debug|x86.ActiveCfg = Debug|Win32
+		{9CC57251-3232-47B5-AE27-84820EF0F6E2}.Debug|x86.Build.0 = Debug|Win32
+		{9CC57251-3232-47B5-AE27-84820EF0F6E2}.Release|x86.ActiveCfg = Release|Win32
+		{9CC57251-3232-47B5-AE27-84820EF0F6E2}.Release|x86.Build.0 = Release|Win32
+		{51EBAE8A-EAD3-45AD-B05C-4E467076BFAF}.Debug|x86.ActiveCfg = Debug|Win32
+		{51EBAE8A-EAD3-45AD-B05C-4E467076BFAF}.Debug|x86.Build.0 = Debug|Win32
+		{51EBAE8A-EAD3-45AD-B05C-4E467076BFAF}.Release|x86.ActiveCfg = Release|Win32
+		{51EBAE8A-EAD3-45AD-B05C-4E467076BFAF}.Release|x86.Build.0 = Release|Win32
+		{1DDD5576-D66B-4D98-8BF6-55AF0D77AB97}.Debug|x86.ActiveCfg = Debug|Win32
+		{1DDD5576-D66B-4D98-8BF6-55AF0D77AB97}.Debug|x86.Build.0 = Debug|Win32
+		{1DDD5576-D66B-4D98-8BF6-55AF0D77AB97}.Release|x86.ActiveCfg = Release|Win32
+		{1DDD5576-D66B-4D98-8BF6-55AF0D77AB97}.Release|x86.Build.0 = Release|Win32
+		{D2002E10-63E5-4A95-80B2-62BEBD4A82E9}.Debug|x86.ActiveCfg = Debug|Win32
+		{D2002E10-63E5-4A95-80B2-62BEBD4A82E9}.Debug|x86.Build.0 = Debug|Win32
+		{D2002E10-63E5-4A95-80B2-62BEBD4A82E9}.Release|x86.ActiveCfg = Release|Win32
+		{D2002E10-63E5-4A95-80B2-62BEBD4A82E9}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

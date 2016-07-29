@@ -1,0 +1,32 @@
+<root>
+	<velparams>
+		<max_velocity value="20"> </max_velocity>
+		<max_acceleration value="100"> </max_acceleration>
+		<dest_radius value="40"> </dest_radius>
+		<arrive_radius value="200"> </arrive_radius>
+		<targetPosition x="40" y="30"> </targetPosition>
+	</velparams>
+	
+	<rotparams>
+		<max_angular_velocity value="100"> </max_angular_velocity>
+		<max_angular_acceleration value="300"> </max_angular_acceleration>
+		<angular_dest_radius value="40"> </angular_dest_radius>
+		<angular_arrive_radius value="90"> </angular_arrive_radius>
+		<targetRotation value="190"> </targetRotation>
+	</rotparams>
+	
+	<path>
+		<points>
+			<point x="-100" y="-100"></point>
+			<point x="0" y="0"></point>
+			<point x="100" y="0"></point>
+			<point x="100" y="100"></point>
+			<point x="200" y="100"></point>
+			<point x="300" y="0"></point>
+			<point x="-100" y="100"></point>
+		</points>
+		
+		<look_ahead value="20"></look_ahead>
+		<time_ahead value="4"></time_ahead>
+	</path>
+</root>
